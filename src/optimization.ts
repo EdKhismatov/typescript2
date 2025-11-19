@@ -19,7 +19,7 @@ const creatShots = (usr: string): string => {
   return id;
 };
 
-for (let i = 0; i < 10_000_000; i++) {
+for (let i = 0; i < 1_000_000; i++) {
   creatShots(url);
 }
 const s = creatShots(url);
