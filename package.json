@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rimraf dist",
     "build": "npm run clean && rimraf dist",
-    "start": "ts-node src/theater.ts"
+    "start": "ts-node src/difference.ts"
   },
   "author": "",
   "license": "ISC",
