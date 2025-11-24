@@ -72,6 +72,5 @@ function differenceFigure(figures: Figures[], difference: keyof Figures) {
   return `Для ключа ${difference} отличающаяся фигура - ${result[0].name}`;
 }
 
-const type = 'size';
-
+const type = 'color';
 console.log(differenceFigure(figures, type));
