@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rimraf dist",
     "build": "npm run clean && rimraf dist",
-    "start": "ts-node src/difference.ts"
+    "start": "ts-node src/benchmark.ts"
   },
   "author": "",
   "license": "ISC",
@@ -34,6 +34,7 @@
     "endOfLine": "auto"
   },
   "dependencies": {
-    "@faker-js/faker": "^10.1.0"
+    "@faker-js/faker": "^10.1.0",
+    "benchmark": "^2.1.4"
   }
 }
